@@ -1,6 +1,6 @@
-package de.mtorials.dialphone.mevents.roommessage
+package net.micromes.makocommons.mevents.roommessage
 
-import de.mtorials.dialphone.mevents.MatrixRoomEvent
+import net.micromes.makocommons.mevents.MatrixRoomEvent
 
 /**
  * Represents a matrix event of type room message event

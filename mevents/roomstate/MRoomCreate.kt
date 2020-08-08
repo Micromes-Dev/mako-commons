@@ -1,9 +1,8 @@
-package de.mtorials.dialphone.mevents.roomstate
+package net.micromes.makocommons.mevents.roomstate
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.annotation.JsonTypeName
 import de.mtorials.dialphone.ContentEventType
-import de.mtorials.dialphone.mevents.EventContent
 
 @JsonTypeName("m.room.create")
 class MRoomCreate(

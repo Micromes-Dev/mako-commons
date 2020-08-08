@@ -1,4 +1,4 @@
-package de.mtorials.dialphone.mevents.roommessage
+package net.micromes.makocommons.mevents.roommessage
 
 import com.fasterxml.jackson.annotation.*
 import de.mtorials.dialphone.ContentEventType

@@ -1,4 +1,4 @@
-package de.mtorials.dialphone.mevents.roomstate
+package net.micromes.makocommons.mevents.roomstate
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.annotation.JsonProperty

@@ -1,10 +1,9 @@
-package de.mtorials.dialphone.mevents.roomstate
+package net.micromes.makocommons.mevents.roomstate
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.annotation.JsonTypeName
 import de.mtorials.dialphone.ContentEventType
 import de.mtorials.dialphone.enums.JoinRule
-import de.mtorials.dialphone.mevents.EventContent
 
 @JsonTypeName("m.room.join_rules")
 class MRoomJoinRules(

@@ -1,6 +1,7 @@
-package de.mtorials.dialphone.mevents
+package net.micromes.makocommons.mevents
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
+
 class DefaultEvent(
     override val sender: String,
     override val content: DefaultContent

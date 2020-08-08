@@ -1,10 +1,10 @@
-package de.mtorials.dialphone.mevents.presence
+package net.micromes.makocommons.mevents.presence
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.annotation.JsonTypeName
 import de.mtorials.dialphone.ContentEventType
-import de.mtorials.dialphone.mevents.EventContent
-import de.mtorials.dialphone.mevents.MatrixEvent
+import net.micromes.makocommons.mevents.EventContent
+import net.micromes.makocommons.mevents.MatrixEvent
 
 @JsonTypeName("m.presence")
 class MPresence(

@@ -1,5 +1,5 @@
-package de.mtorials.dialphone.mevents.roomstate
+package net.micromes.makocommons.mevents.roomstate
 
-import de.mtorials.dialphone.mevents.EventContent
+import net.micromes.makocommons.mevents.EventContent
 
 interface StateEventContent : EventContent

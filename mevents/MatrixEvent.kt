@@ -1,13 +1,13 @@
-package de.mtorials.dialphone.mevents
+package net.micromes.makocommons.mevents
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.annotation.JsonSubTypes
 import com.fasterxml.jackson.annotation.JsonTypeInfo
-import de.mtorials.dialphone.mevents.presence.MPresence
-import de.mtorials.dialphone.mevents.roommessage.MRoomEncrypted
-import de.mtorials.dialphone.mevents.roommessage.MRoomMessage
-import de.mtorials.dialphone.mevents.roommessage.MRoomRedaction
-import de.mtorials.dialphone.mevents.roomstate.*
+import net.micromes.makocommons.mevents.presence.MPresence
+import net.micromes.makocommons.mevents.roommessage.MRoomEncrypted
+import net.micromes.makocommons.mevents.roommessage.MRoomMessage
+import net.micromes.makocommons.mevents.roommessage.MRoomRedaction
+import net.micromes.makocommons.mevents.roomstate.*
 
 
 /**

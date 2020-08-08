@@ -1,9 +1,7 @@
-package de.mtorials.dialphone.mevents.roomstate
+package net.micromes.makocommons.mevents.roomstate
 
-import com.fasterxml.jackson.annotation.JsonTypeInfo
-import de.mtorials.dialphone.mevents.EventContent
-import de.mtorials.dialphone.mevents.DefaultEvent
-import de.mtorials.dialphone.mevents.MatrixRoomEvent
+import net.micromes.makocommons.mevents.EventContent
+import net.micromes.makocommons.mevents.MatrixRoomEvent
 
 interface MatrixStateEvent : MatrixRoomEvent {
     val stateKey: String

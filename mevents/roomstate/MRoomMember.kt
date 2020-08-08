@@ -3,8 +3,8 @@ package net.micromes.makocommons.mevents.roomstate
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.annotation.JsonTypeName
+import net.micromes.makocommons.enums.Membership
 import net.micromes.makocommons.mevents.ContentEventType
-import de.mtorials.dialphone.enums.Membership
 
 @JsonTypeName("m.room.member")
 class MRoomMember(

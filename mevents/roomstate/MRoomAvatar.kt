@@ -2,7 +2,7 @@ package net.micromes.makocommons.mevents.roomstate
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.annotation.JsonTypeName
-import de.mtorials.dialphone.ContentEventType
+import net.micromes.makocommons.mevents.ContentEventType
 
 @JsonTypeName("m.room.avatar")
 class MRoomAvatar(

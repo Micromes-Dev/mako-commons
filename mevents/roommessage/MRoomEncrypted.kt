@@ -3,7 +3,7 @@ package net.micromes.makocommons.mevents.roommessage
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.annotation.JsonTypeName
-import de.mtorials.dialphone.ContentEventType
+import net.micromes.makocommons.mevents.ContentEventType
 
 @JsonTypeName("m.room.encrypted")
 class MRoomEncrypted(

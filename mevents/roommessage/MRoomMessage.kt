@@ -1,7 +1,7 @@
 package net.micromes.makocommons.mevents.roommessage
 
 import com.fasterxml.jackson.annotation.*
-import de.mtorials.dialphone.ContentEventType
+import net.micromes.makocommons.mevents.ContentEventType
 
 @JsonTypeName("m.room.message")
 class MRoomMessage(

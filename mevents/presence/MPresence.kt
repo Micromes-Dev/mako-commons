@@ -2,7 +2,7 @@ package net.micromes.makocommons.mevents.presence
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.annotation.JsonTypeName
-import de.mtorials.dialphone.ContentEventType
+import net.micromes.makocommons.mevents.ContentEventType
 import net.micromes.makocommons.mevents.EventContent
 import net.micromes.makocommons.mevents.MatrixEvent
 
